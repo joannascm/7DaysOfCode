@@ -1,0 +1,171 @@
+/*Personalização de texto*/
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: normal;
+}
+
+.Centralizado {
+    text-align: center;
+}
+
+.titulo {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.texto {
+    color: white;
+    width: 50%;
+    display:inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+.destaqueAmarelo{
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.destaqueRosa{
+    color: #F8887E;
+    font-weight: bold;
+}
+
+/*index.html*/
+
+header {
+    background-color:#0A0F10;
+    text-align: center;
+}
+
+.cabeçalho {
+    color: white;  
+    padding: 3.4em;
+}
+
+.logo {
+    width: 4%;
+}
+
+main {
+    background-color: #0F1819;
+}
+
+.caixa{
+    padding: 100px 0;
+}
+
+.fotoJoanna {
+    position: relative;
+    width: 350px;
+    margin-left: 180px;
+}
+
+.caixaCentralizada{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.desafioAlura {
+    background: #F8887E;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+button {
+  padding: 1em;  
+  border-radius: 30px;
+  background-color: #0A0F10;
+}
+
+button a {
+    text-decoration: none;
+    color: aliceblue;
+    line-height: 20px;
+}
+
+button a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+footer{
+    background: #0A0F10;
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+}
+
+/*Day 1*/
+
+.comp1:hover span{
+    display: none;
+}
+
+.comp1:hover::after{
+    color: #F8887E;
+    content: "numeroUm == stringUm";
+}
+
+.comp2:hover span{
+    display: none;
+}
+
+.comp2:hover::after{
+    color: #F8887E;
+    content: "numeroTrinta === stringTrinta";
+}
+
+.comp3:hover span{
+    display: none;
+}
+
+.comp3:hover::after{
+    color: #F8887E;
+    content: "numeroDez == stringDez";
+}
+
+/*Day2*/
+
+.formulario{
+    margin: 40px 0;
+}
+
+form label{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+form input{
+    width: 50%;
+    margin: 10px;
+    padding: 1em;
+}
+
+.resposta {
+    text-align: center;
+}
+    
+.botaoEnviar {
+    margin-left: 360px;
+    text-transform: uppercase;
+    display: block;
+    width: 10em;
+}
+
+.botaoEnviar:hover{
+    background-color: #F8887E;
+}
+
+.resposta {
+    color: white;
+    width: 50%;
+    display:inline-block;
+    margin: 2em;
+}
+
+
+
