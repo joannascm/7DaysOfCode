@@ -139,7 +139,7 @@ form label{
     text-transform: uppercase;
 }
 
-form input{
+form input, #nome{
     width: 50%;
     margin: 10px;
     padding: 1em;
@@ -150,6 +150,8 @@ form input{
 }
     
 .botaoEnviar {
+    color: aliceblue;
+    margin-top: 2em;
     margin-left: 360px;
     text-transform: uppercase;
     display: block;
@@ -161,11 +163,13 @@ form input{
 }
 
 .resposta {
-    color: white;
+    color: #F8887E;
     width: 50%;
     display:inline-block;
     margin: 2em;
 }
+/*Day 3*/
 
-
-
+#linguagem, #especializacao, #outrasLinguagens, #novaTecnologia, #botao2, #botao3, #botao4, #botao5{
+    visibility: hidden;
+}
