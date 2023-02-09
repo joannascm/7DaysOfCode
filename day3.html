@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Joanna Sabrina</title>
+    <link rel="shortcut icon" href="arquivos/logojoanna.png">
+
+</head>
+<body>
+    <header>
+        <div class="cabeçalho">
+            <img class="logo" src="arquivos/logojoanna.png" alt="Logo Joanna">
+        </div>
+    </header>
+    
+    <main>
+        <section class="caixaCentralizada">
+            <h1 class="titulo centralizado">Day 3 - Fluxo de decisão</h1>
+
+            <p class="texto centralizado">Desenvolvendo um programa que cria destinos diferentes de um jogo, que o usuário possa escolher.</p><br><br>
+
+            <form id="form">
+
+                <label class="texto" for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite seu nome">
+
+                <label class="texto" for="area">Você quer seguir para área de 'Front-End' ou de 'Back-End'? Digite o nome da área:</label>
+                <input type="text" id="area" placeholder="Digite a área">
+
+                    <button class="botaoEnviar" id="botao1" type="button" onclick="perguntaNomeEArea()">Seguir</button><br>
+                
+                <div>
+                    <label class="texto" for="linguagem" id="perguntaLinguagem"></label>
+                    <input type="text" id="linguagem" placeholder="Digite o que deseja aprender">
+
+                    <button class="botaoEnviar" id="botao2" type="button" onclick="perguntaSobreEspecializacao()">Seguir</button><br>
+                </div>
+
+                <div>
+                    <label class="texto" for="especializacao" id="perguntaEspecializacao"></label>
+                    <input type="text" id="especializacao" placeholder="Digite '1' ou '2'">
+                    <button class="botaoEnviar" id="botao3" type="button" onclick="perguntaAprenderNova()">Seguir</button><br>
+
+                </div>
+                    <label class="texto" for="outrasLinguagens" id="perguntasLinguagens"></label>
+                    <input type="text" id="outrasLinguagens" placeholder="Digite 'sim' em caso positivo e 'não' em caso negativo">
+                    <button class="botaoEnviar" id="botao4" type="button" onclick="aprenderNovasLinguagens()">Seguir</button><br>
+
+                <div>
+                    <label class="texto" for="novaTecnologia" id="perguntaNovaTecnologia"></label>
+                    <input type="text" id="novaTecnologia" placeholder="Digite o nome da tecnologia">
+                    <button class="botaoEnviar" id="botao5" type="button" onclick="final()">Seguir</button><br>
+                </div>
+
+                <div>
+                    <label class="texto" for="respostaFinal" id="final"></label>
+                </div>
+
+             </form>            
+    </main>
+
+    <footer>
+        <img class="logo" src="arquivos/logojoanna.png" alt="Logo Da Joanna">
+        <p class="copyrights">&copy; Copyright Joanna Sabrina - 2023</p>
+    </footer>
+
+    <script src="js/day3.js"></script>
+</body>
+</html>
