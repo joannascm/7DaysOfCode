@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Desafio 2</title>
+    <link rel="shortcut icon" href="arquivos/logojoanna.png">
+
+</head>
+<body>
+    <header>
+        <div class="cabeçalho">
+            <img class="logo" src="arquivos/logojoanna.png" alt="Logo Joanna">
+        </div>
+    </header>
+
+    <main>
+        <section class="caixaCentralizada">
+            <h1 class="titulo centralizado">Day 4 - Mais loops e randomização</h1>
+
+                <p class="texto centralizado">Desenvolvendo um programa que o usuário tenha três tentativas para adivinhar o número definido pelo programa, caso acerte, aparecerá uma mensagem o parabenizando, caso falhe, o programa deve informar qual era o número definido.</p><br><br>
+
+                <div class="content">
+                    <label class="texto" for="num">Escolha um número de 0 á 10:</label>
+                    <input type="number" id="num" placeholder="Digite um número">
+                    <button class="botaoEnviar" id="enviarnum" type="button" onclick="tentativas()">OK</button>
+                </div>
+
+
+    </main>
+
+    <footer>
+        <img class="logo" src="arquivos/logojoanna.png" alt="Logo Da Joanna">
+        <p class="copyrights">&copy; Copyright Joanna Sabrina - 2023</p>
+    </footer>
+    
+    <script src="js/day4.js"></script>
+</body>
+</html>
