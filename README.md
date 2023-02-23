@@ -31,10 +31,10 @@ E aí, dependendo da resposta, ele deve mostrar uma das seguintes mensagens:
 **2 > Ahh que pena... Já tentou aprender outras linguagens?**
 
 ------------------------------------------------------------
-`DESAFIO 3`: em andamento
+`DESAFIO 3`: Desenvolvendo um programa que cria destinos diferentes de um jogo, que o usuário possa escolher a partir de suas opções.
 
 ------------------------------------------------------------
-`DESAFIO 4`: em andamento
+`DESAFIO 4`: Desenvolvendo um programa que o usuário tenha três tentativas para adivinhar o número definido pelo programa, caso acerte, aparecerá uma mensagem o parabenizando, caso falhe, o programa deve informar qual era o número definido.
 
 ------------------------------------------------------------
 `DESAFIO 5`: em andamento
